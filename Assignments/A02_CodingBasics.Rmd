@@ -59,6 +59,7 @@ scores <- c(35,72,100,51) # numeric vector
 passed <- c(FALSE,TRUE,TRUE,TRUE) #Logical vector
 test_data_frame <- data.frame(names, scores, passed)
 names(test_data_frame) <- c("Name","Score","Passed?"); View(test_data_frame)
+print(test_data_frame)
 ```
 
 9. QUESTION: How is this data frame different from a matrix?
