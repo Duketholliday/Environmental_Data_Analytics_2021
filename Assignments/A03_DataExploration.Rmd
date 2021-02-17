@@ -26,7 +26,6 @@ The completed exercise is due on <>.
 setwd("Z:/ENV872/Environmental_Data_Analytics_2021")
 getwd()
 
-install.packages("tidyverse")
 library(tidyverse)
 
 Neonics <- read.csv("Z:/ENV872/Environmental_Data_Analytics_2021/Data/Raw/ECOTOX_Neonicotinoids_Insects_raw.csv")
